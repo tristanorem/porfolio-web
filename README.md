@@ -1,1 +1,6 @@
 # porfolio-web
+
+
+#Hola 😃 este es mi porfolio web ,en donde encontras varios poryectos 👩🏻‍💻 mios y datos sobre mi 👩🏻‍🚀 espero que les guste 🚀 🛸👽 🤖 ...
+
+#Hello 😃 this is my web portfolio, where you can find several projects 👩🏻‍💻 of mine and data about me 👩🏻‍🚀 I hope you like it 🚀 🛸👽 🤖 ...
