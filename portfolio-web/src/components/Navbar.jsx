@@ -10,7 +10,7 @@ const Navbar = () => {
   const[nav ,setNav]=useState(false) 
   const handleClick=()=> setNav(!nav);
   return (
-    < div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0d234265] text-white'>
+    < div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0d23423a] text-white'>
             < div >
                 < img src={LogoWeb} alt="Logo Img" style={{width:'50px'}}   />
             </ div>
@@ -18,10 +18,10 @@ const Navbar = () => {
             
                 < ul className='hidden md:flex'>
                     < li>Home</ li>
-                    < li>About</ li>
-                    < li>Skill</ li>
-                    < li>Work</ li>
-                    < li>Contact</ li>
+                    < li>Sobre mi </ li>
+                    < li>Experiencia</ li>
+                    < li>Proyectos</ li>
+                    < li>Contacto</ li>
                     
                 </ ul>
             
