@@ -3,6 +3,7 @@ import {FaBars , FaTimes,FaGithub,FaLinkedin} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import LogoWeb from '../assets/logoelena.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,17 +12,17 @@ const Navbar = () => {
   const handleClick=()=> setNav(!nav);
   return (
     < div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0d23423a] text-white'>
-            < div >
+            < Link to="/">
                 < img src={LogoWeb} alt="Logo Img" style={{width:'50px'}}   />
-            </ div>
+            </ Link>
             {/*menu*/ }
             
-                < ul className='hidden md:flex'>
-                    < li>Home</ li>
-                    < li>Sobre mi </ li>
-                    < li>Experiencia</ li>
-                    < li>Proyectos</ li>
-                    < li>Contacto</ li>
+                < ul className='hidden md:flex   '>
+                    < li className='  hover:text-pink-600 duration-300 ' >< Link to='/'> Home</Link></ li>
+                    < li className='  hover:text-pink-600 duration-300' >< Link to="/About">Sobre mi</Link> </ li>
+                    < li className='  hover:text-pink-600  duration-300' >< Link to="/Skill"> Experiencia</Link></ li>
+                    < li className='  hover:text-pink-600 duration-300'  > < Link to="/Work" >Proyectos</Link></ li>
+                    < li className='  hover:text-pink-600 duration-300'  > < Link to="#">Contacto</Link></ li>
                     
                 </ ul>
             
@@ -33,7 +34,7 @@ const Navbar = () => {
 
             {/*mobile menu */}
             < ul className={!nav ? 'hidden' : ' absolute top-0 left-0 w-full h-screen  bg-[#0a192f] flex flex-col justify-center items-center'}>
-                    < li className='py-6 text-4xl' >Home</ li>
+                    < li className='py-6 text-4xl ' >Home</ li>
                     < li className='py-6 text-4xl' >About</ li>
                     < li className='py-6 text-4xl' >Skill</ li>
                     < li className='py-6 text-4xl' >Work</ li>

@@ -1,16 +1,18 @@
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Skill from "./components/Skill";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Skill from "./routes/Skill";
+import Work from "./routes/Work";
+import { Routes,Route } from "react-router-dom";
 
 function App() {
   return (
-    <div >
-        <Navbar/>
-        <Home/>
-        <About/>
-        <Skill/>
-    </ div>
+    <Routes>
+    < Route path='/' element={ < Home />}   />
+    < Route path='/About' element={ < About />}   />
+    < Route path='/Skill' element={ < Skill />}   />
+    < Route path='/Work' element={ < Work />}   />
+</Routes>
+
   );
 }
 
