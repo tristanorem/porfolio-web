@@ -22,7 +22,7 @@ const Navbar = () => {
                     < li className='  hover:text-pink-600 duration-300' >< Link to="/About">Sobre mi</Link> </ li>
                     < li className='  hover:text-pink-600  duration-300' >< Link to="/Skill"> Experiencia</Link></ li>
                     < li className='  hover:text-pink-600 duration-300'  > < Link to="/Work" >Proyectos</Link></ li>
-                    < li className='  hover:text-pink-600 duration-300'  > < Link to="#">Contacto</Link></ li>
+                    < li className='  hover:text-pink-600 duration-300'  > < Link to="/Contact">Contacto</Link></ li>
                     
                 </ ul>
             
@@ -49,25 +49,25 @@ const Navbar = () => {
                     < ul>
                       < li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                         < a className='flex  justify-between items-center w-full text-gray-300 ' 
-                        href="/" >
+                        href="https://www.linkedin.com/in/elena-acevedo-06b45a1a0/" >
                           Linkedin < FaLinkedin size={30}/>  
                         </ a>
                       </  li>
                       < li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                         < a className='flex  justify-between items-center w-full text-gray-300 ' 
-                        href="/" >
+                        href="https://github.com/tristanorem" >
                           Github < FaGithub size={30}/>  
                         </ a>
                       </  li>
                       < li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600'>
                         < a className='flex  justify-between items-center w-full text-gray-300 ' 
-                        href="/" >
+                        href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" >
                           Email < HiOutlineMail size={30}/>  
                         </ a>
                       </  li>
                       < li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                         < a className='flex  justify-between items-center w-full text-gray-300 ' 
-                        href="/" >
+                        href="https://web.whatsapp.com/" >
                           Contact < BsFillPersonLinesFill size={30}/>  
                         </ a>
                       </  li>

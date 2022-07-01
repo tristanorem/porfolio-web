@@ -19,7 +19,7 @@ const Casa= () => {
 
                 < div>
 
-                 < Link to="/Work"> < button className='text-white group border-2 px-6 py-3 my-6 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:scale-110 duration-500'>mis Proyectos 
+                 < Link to="/Work"> < button className='text-white group border-2 px-6 py-3 my-6 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:scale-110 duration-500 rounded-[9px]'>mis Proyectos 
                  < span className='group-hover:scale-110 duration-300'>
                           < HiArrowNarrowRight className='ml-3'/>
                          </ span>
