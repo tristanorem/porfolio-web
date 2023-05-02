@@ -3,7 +3,7 @@ import React from 'react';
 const Contacto = () => {
   return (
     < div name="contacto" className='w-full h-screen bg-[#0a192f]  flex justify-center items-center p-4 '>
-     < form action="https://getform.io/f/4dbeb59c-e62d-410b-92c5-fd7ad118aa60" method='POST'  className='flex flex-col max-w-[600px] w-full '>
+     < form action="https://getform.io/f/94ba19b5-087a-4431-af1b-cb94d7fcb91f" method='POST'  className='flex flex-col max-w-[600px] w-full '>
         < div className='pb-8'>
             < p className='text-4xl font-bold inline border-b-4 border-pink-800 text-gray-300 '>Contacto</p>
             < p className='text-gray-300 py-4' >Envíe el formulario a continuación o envíeme un correo electrónico - acevedoelena.23@gmail.com </p>

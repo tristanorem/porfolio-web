@@ -1,16 +1,15 @@
 import React from 'react';
 import ImgWork from '../assets/imgwork2.png'
 import WorkImg from '../assets/imagework.png';
-import './Trabajo.css';
-import Ilustracion from '../components/Ilustracion';
 
-const Trabajo = () => {
+
+const Ilustracion = () => {
   return (
     < div name="work" className=' w-full md:h-screen bg-[#0a192f] text-gray-300 '>
         
         < div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full' >
           < div className='pb-8'>
-            < p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Proyectos</p>
+            < p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Proyectos de Ilustración</p>
             < p className='py-6'>Algunos de mis trabajos realizados.</p>
           </ div>
           
@@ -122,9 +121,8 @@ React JS Application
           </ div>  
 
         </ div>
-        <Ilustracion/>
     </ div>
   )
 }
 
-export default Trabajo;
+export default Ilustracion;

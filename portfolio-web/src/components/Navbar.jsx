@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaBars , FaTimes,FaGithub,FaLinkedin} from 'react-icons/fa';
+import {FaBars , FaTimes,FaGithub,FaLinkedin,FaInstagram,FaArtstation,FaDeviantart} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import LogoWeb from '../assets/logoelena.png';
@@ -69,6 +69,24 @@ const Navbar = () => {
                         < a className='flex  justify-between items-center w-full text-gray-300 ' 
                         href="https://web.whatsapp.com/" >
                           Contact < BsFillPersonLinesFill size={30}/>  
+                        </ a>
+                      </  li>
+                      < li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#b04ca2]'>
+                        < a className='flex  justify-between items-center w-full text-gray-300 ' 
+                        href="https://www.instagram.com/elenaaa_acevedo" >
+                          Instagram < FaInstagram size={30}/>  
+                        </ a>
+                      </  li>
+                      < li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4713d6]'>
+                        < a className='flex  justify-between items-center w-full text-gray-300 ' 
+                        href="https://www.artstation.com/mariaelena2" >
+                          ArtStation < FaArtstation size={30}/>  
+                        </ a>
+                      </  li>
+                      < li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#33ef49ad]'>
+                        < a className='flex  justify-between items-center w-full text-gray-300 ' 
+                        href="https://www.deviantart.com/elenattt" >
+                          DeviantArt < FaDeviantart size={30}/>  
                         </ a>
                       </  li>
                     </ ul>  
